@@ -1,10 +1,11 @@
-//This rule is used to transform a Flowchart into a DIV
+// This rule is used to transform a Flowchart into a DIV
 rule Flowchart2Div
 	transform f : Source!Flowchart
 	to div : Target!DIV {
 	
-	//This equivalent() method returns a flattened list of all the transitions in the flowchart.
-	div.children ::= f.transitions; //The "::=" operator is the same as equivalent() method.
+	// The "::=" operator assigns to div.children the
+	// equivalent (transformed) elements of f.transitions
+	div.children ::= f.transitions;
 	
 	// The preceeding line is the same as:
 	//   div.children.addAll(f.transitions.equivalent());
@@ -15,7 +16,7 @@ rule Flowchart2Div
 	//   }
 }
 
-//This rule is used to transform a Transition into a Heading.
+// This rule is used to transform a Transition into a Heading.
 rule Transition2Heading
 	transform t : Source!Transition
 	to h1 : Target!H1 {

@@ -1,11 +1,11 @@
 {
   "examples": [
 	{
-		"title": "Model-to-Model Examples",
+		"title": "Linked List Examples",
 		"examples": [
 			{
 				"id": "linkedlistreversal",
-				"title": "Reverse a linked list",
+				"title": "Reverse a Linked List",
 				"language": "etl",
 				"program": "linked-list-reversal/linkedlistreversal.etl",
 				"flexmi": "linked-list-reversal/sourcelinkedlist.flexmi",
@@ -15,11 +15,11 @@
 		]
 	},
 	{
-		"title": "Flowchart2HTML Examples",
+		"title": "Flowchart to HTML Examples",
 		"examples": [
 			{
 				"id": "base",
-				"title": "Base example",
+				"title": "Base Example",
 				"language": "etl",
 				"program": "flowchart2html/base.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
@@ -28,7 +28,7 @@
 			},
 			{
 				"id": "equivalent",
-				"title": "Equivalent method example",
+				"title": "Equivalent Method",
 				"language": "etl",
 				"program": "flowchart2html/equivalent.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
@@ -37,7 +37,7 @@
 			},
 			{
 				"id": "greedy",
-				"title": "Greedy tag example",
+				"title": "Greedy Annotation",
 				"language": "etl",
 				"program": "flowchart2html/greedy.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
@@ -46,7 +46,7 @@
 			},
 			{
 				"id": "inheritance",
-				"title": "Inheritance example",
+				"title": "Inheritance",
 				"language": "etl",
 				"program": "flowchart2html/inheritance.etl",
 				"flexmi": "flowchart2html/wakeup_with_subflow.flexmi",
@@ -55,7 +55,7 @@
 			},
 			{
 				"id": "lazy",
-				"title": "Lazy tag example",
+				"title": "Lazy Annotation",
 				"language": "etl",
 				"program": "flowchart2html/lazy.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
@@ -64,7 +64,7 @@
 			},
 			{
 				"id": "multiple_targets",
-				"title": "Multiple targets example",
+				"title": "Multiple Targets",
 				"language": "etl",
 				"program": "flowchart2html/multiple_targets.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
@@ -73,7 +73,7 @@
 			},
 			{
 				"id": "primary",
-				"title": "Primary tag example",
+				"title": "Primary Annotation",
 				"language": "etl",
 				"program": "flowchart2html/primary.etl",
 				"flexmi": "flowchart2html/wakeup.flexmi",
